@@ -17,7 +17,7 @@ for page in brands_list:
     page_url = f'{page[1]}-parts'
 
 
-    # RESPONCE FROM PAGE
+    # RESPONCE FROM PAGE --
     def get_page_html(page_url):
         res = requests.get(page_url, headers=HEADERS)
         return res
